@@ -1,0 +1,49 @@
+﻿Strategy,Group,Model,R2,RMSE,MAE,RPD
+Full-sample modeling,All samples,RF,0.3583,2.6269,1.8346,1.2491
+Full-sample modeling,All samples,GWR,0.31,4.3438,2.1533,1.2046
+Full-sample modeling,All samples,SVR,0.3154,2.7133,1.8616,1.2094
+Full-sample modeling,All samples,1D-CNN,0.2399 ± 0.0089,3.1562 ± 0.0184,2.0456 ± 0.0089,1.1477
+Land-cover-specific modeling,Cropland,RF,0.2774,1.9875,1.3732,1.1791
+Land-cover-specific modeling,Cropland,GWR,-0.0481,3.2125,1.6735,0.979
+Land-cover-specific modeling,Cropland,SVR,0.2511,2.0234,1.3718,1.1582
+Land-cover-specific modeling,Cropland,1D-CNN,0.3334 ± 0.0196,2.0362 ± 0.0298,1.3553 ± 0.0200,1.2275
+Land-cover-specific modeling,Forest,RF,0.2104,2.4368,1.7471,1.128
+Land-cover-specific modeling,Forest,GWR,0.298,4.1997,2.2903,1.1961
+Land-cover-specific modeling,Forest,SVR,0.1749,2.491,1.7672,1.1035
+Land-cover-specific modeling,Forest,1D-CNN,0.1317 ± 0.0110,3.1473 ± 0.0198,1.9784 ± 0.0070,1.0756
+Land-cover-specific modeling,Shrubland,RF,0.3384,1.878,1.451,1.2384
+Land-cover-specific modeling,Shrubland,GWR,0.2325,5.185,2.6135,1.1495
+Land-cover-specific modeling,Shrubland,SVR,0.1914,2.0763,1.5982,1.1202
+Land-cover-specific modeling,Shrubland,1D-CNN,0.3146 ± 0.0244,2.1584 ± 0.0381,1.6060 ± 0.0495,1.2163
+Land-cover-specific modeling,Grassland,RF,0.3347,4.1817,2.9572,1.2284
+Land-cover-specific modeling,Grassland,GWR,0.3439,5.0249,3.3209,1.2369
+Land-cover-specific modeling,Grassland,SVR,0.2402,4.4688,3.0052,1.1495
+Land-cover-specific modeling,Grassland,1D-CNN,0.3272 ± 0.0381,4.7544 ± 0.1314,3.0524 ± 0.1122,1.2213
+Land-cover-specific modeling,Barren land,RF,0.5283,0.8507,0.618,1.4728
+Land-cover-specific modeling,Barren land,GWR,-0.0612,1.361,0.9214,0.9908
+Land-cover-specific modeling,Barren land,SVR,0.4871,0.887,0.6474,1.4125
+Land-cover-specific modeling,Barren land,1D-CNN,0.5637 ± 0.0074,0.8312 ± 0.0068,0.6859 ± 0.0306,1.5428
+Region-specific modeling,Northeast China,RF,0.4433,2.7588,2.0534,1.348
+Region-specific modeling,Northeast China,GWR,0.2661,7.2263,3.2695,1.1737
+Region-specific modeling,Northeast China,SVR,0.3944,2.8775,2.0094,1.2924
+Region-specific modeling,Northeast China,1D-CNN,0.3487 ± 0.0349,3.7559 ± 0.0988,2.5890 ± 0.1116,1.246
+Region-specific modeling,North China,RF,0.3817,1.504,1.1667,1.2774
+Region-specific modeling,North China,GWR,-0.0702,2.6756,1.6596,0.9708
+Region-specific modeling,North China,SVR,0.3183,1.5792,1.1713,1.2166
+Region-specific modeling,North China,1D-CNN,0.2166 ± 0.0145,2.2516 ± 0.0206,1.5175 ± 0.0409,1.1347
+Region-specific modeling,East China,RF,0.3105,1.4,1.0863,1.2079
+Region-specific modeling,East China,GWR,0.8171,2.314,1.5439,2.3445
+Region-specific modeling,East China,SVR,0.2932,1.4175,1.0772,1.193
+Region-specific modeling,East China,1D-CNN,0.2135 ± 0.0045,2.3535 ± 0.0067,1.5354 ± 0.0292,1.1309
+Region-specific modeling,South China,RF,0.0751,2.1458,1.4876,1.0475
+Region-specific modeling,South China,GWR,-0.0253,3.6326,2.102,0.9946
+Region-specific modeling,South China,SVR,-0.0316,2.2662,1.5346,0.9919
+Region-specific modeling,South China,1D-CNN,0.0880 ± 0.0493,2.7639 ± 0.0748,1.8625 ± 0.0902,1.0544
+Region-specific modeling,Northwest China,RF,0.468,2.6296,1.733,1.374
+Region-specific modeling,Northwest China,GWR,0.3536,8.7817,3.0326,1.246
+Region-specific modeling,Northwest China,SVR,0.2119,3.2005,2.2339,1.1289
+Region-specific modeling,Northwest China,1D-CNN,0.5013 ± 0.0071,3.3607 ± 0.0235,2.1350 ± 0.0143,1.4186
+Region-specific modeling,Southwest China,RF,0.2061,3.7792,2.7228,1.1258
+Region-specific modeling,Southwest China,GWR,-0.0156,8.2883,4.2101,0.9954
+Region-specific modeling,Southwest China,SVR,0.0429,4.1494,2.8138,1.0253
+Region-specific modeling,Southwest China,1D-CNN,0.1221 ± 0.0139,4.2167 ± 0.0315,3.0946 ± 0.0576,1.0706

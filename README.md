@@ -9,6 +9,7 @@
 
 主数据为 SOCD GeoTIFF 栅格；可选 OVR 文件为外部金字塔，用于提升 GIS 显示效率。
 数据发布：[GitHub Release](https://github.com/TitaniumND5/SOCD-30m/releases/tag/data-v1)
+研究代码见 `code/`，包括四种模型、三种建模策略、GEE 全国制图及相关分析代码。论文主要定量结果见 `results/`。
 
 ---
 
@@ -23,3 +24,4 @@
 
 The main data are SOCD GeoTIFF rasters. Optional OVR files are external pyramids for improved display performance in GIS.
 Release: [GitHub Release](https://github.com/TitaniumND5/SOCD-30m/releases/tag/data-v1)
+Research code is available in `code/`, including four models, three modeling strategies, GEE national mapping, and related analyses. The main quantitative results are available in `results/`.
