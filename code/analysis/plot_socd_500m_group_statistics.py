@@ -19,8 +19,8 @@ from matplotlib.patches import Patch
 # 1. 文件路径
 # =========================
 PACKAGE_ROOT = Path(__file__).resolve().parents[2]
-clcd_csv = PACKAGE_ROOT / "results" / "new_500m_v2_stats_by_CLCD.csv"
-region_csv = PACKAGE_ROOT / "results" / "new_500m_v2_stats_by_region.csv"
+clcd_csv = PACKAGE_ROOT / "results" / "socd_500m_land_cover_statistics.csv"
+region_csv = PACKAGE_ROOT / "results" / "socd_500m_region_statistics.csv"
 out_dir = PACKAGE_ROOT / "outputs" / "fig9_right_statistics"
 out_dir.mkdir(parents=True, exist_ok=True)
 
